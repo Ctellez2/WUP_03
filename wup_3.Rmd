@@ -39,6 +39,12 @@ basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='e
 
 ## Numerical Summarys 
 
+```{r}
+favstats(alcohol~Seat,data=ucdavis1)
+```
+
+According to our data table, all rows do not have the same average total of drinks. The back row seems to drink an average amount of 8.6 drinks per week, more than twice what the middle row drinks on a weekly basis (3.3 drinks), and about seven times more than what the front row drinks (1.8 drinks). It is reasonable to assume that each row is not drinking the same amount of drinks per week.
+
 ## Inferential Tests
 
 ## Conclusions
